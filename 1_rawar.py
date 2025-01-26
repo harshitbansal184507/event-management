@@ -1,6 +1,5 @@
 
 from flask import *
-from flask import Flask
 import datetime
 import hashlib
 from Session21C import MongoDBHelper
@@ -9,7 +8,7 @@ from bson.objectid import ObjectId
 web_app = Flask("event Management App")
 
 # Create the Object of Flask
-# Which represents a Web Application
+# Which represents a Web Applicatio
 
 db_helper = MongoDBHelper()
 
